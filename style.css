@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+.cabeçalho-do-site{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    font-size: 16px;
+    padding: 10px 50px;
+}
+
+* {
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .cabeçalho-do-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Garante alinhamento vertical */
+    font-size: 16px;
+    padding: 10px 50px;
+  }
+  
+  .nav-cabeçalho {
+    display: flex;
+    gap: 20px;
+    align-items: center; /* Garante que os links fiquem centralizados verticalmente */
+  }
+  
+  .nav-cabeçalho a {
+    color: black;
+    font-weight: 500;
+    padding: 10px 0; /* Similar ao botão para equilibrar altura */
+    font-size: 16px;
+    display: inline-block; /* Para respeitar altura/padding */
+  }
+  
+  .cabeçalho-entrar {
+    background-color: rgb(0, 75, 189);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-weight: 600;
+  }
+  
+  .cabeçalho-entrar:hover {
+    background-color: rgb(0, 60, 160);
+  }
+  
+  
